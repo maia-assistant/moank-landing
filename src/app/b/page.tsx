@@ -1,3 +1,5 @@
+'use client'
+
 import NavbarB from '@/components/variant-b/NavbarB'
 import HeroB from '@/components/variant-b/HeroB'
 import FeaturesB from '@/components/variant-b/FeaturesB'
