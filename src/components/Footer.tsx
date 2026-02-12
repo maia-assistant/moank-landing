@@ -5,11 +5,8 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo & About */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">M</span>
-              </div>
-              <span className="font-semibold text-xl text-white">Moank</span>
+            <div className="flex items-center">
+              <img src="/moank-logo-white.svg" alt="Moank" className="h-8" />
             </div>
             <p className="mt-4 text-sm">
               Moank är ett svenskt konsumentkreditinstitut under Finansinspektionens tillsyn.
